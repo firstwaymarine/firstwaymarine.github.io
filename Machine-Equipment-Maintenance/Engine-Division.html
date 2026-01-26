@@ -33,60 +33,11 @@
     <link rel="stylesheet" href="assets/css/main.css">
 
     <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-
-    <script>
-// Disable right-click
-document.addEventListener("contextmenu", e => e.preventDefault());
-
-// Disable text selection
-document.addEventListener("selectstart", e => e.preventDefault());
-
-// Disable copy, cut, paste
-document.addEventListener("copy", e => e.preventDefault());
-document.addEventListener("cut", e => e.preventDefault());
-document.addEventListener("paste", e => e.preventDefault());
-
-// Disable drag & drop (especially for images)
-document.addEventListener("dragstart", e => e.preventDefault());
-
-// Disable specific key combinations
-document.addEventListener("keydown", e => {
-    // F12
-    if (e.key === "F12") {
-        e.preventDefault();
-    }
-    // Ctrl+Shift+I / Ctrl+Shift+J (DevTools)
-    if (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) {
-        e.preventDefault();
-    }
-    // Ctrl+U (View Source)
-    if (e.ctrlKey && e.key.toLowerCase() === "u") {
-        e.preventDefault();
-    }
-    // Ctrl+S (Save Page)
-    if (e.ctrlKey && e.key.toLowerCase() === "s") {
-        e.preventDefault();
-    }
-    // Ctrl+C (Copy)
-    if (e.ctrlKey && e.key.toLowerCase() === "c") {
-        e.preventDefault();
-    }
-    // Ctrl+X (Cut)
-    if (e.ctrlKey && e.key.toLowerCase() === "x") {
-        e.preventDefault();
-    }
-    // Ctrl+A (Select All)
-    if (e.ctrlKey && e.key.toLowerCase() === "a") {
-        e.preventDefault();
-    }
-});
-</script>
-
 </head>
 
 <body class="header-2">
     <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="">upgrade your browser</a> to improve your experience.</p>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
     <div class="site-preloader-wrap">
@@ -98,13 +49,13 @@ document.addEventListener("keydown", e => {
             <div class="container">
                 <div class="top-bar-inner">
                     <div class="top-left">
-                       <ul>
+                         <ul>
                             <li><i class="fas fa-phone"></i> <a href="tel:+9712555454">+971 2 555 4543</a></li>
                             <li><i class="fas fa-envelope"></i> <a href="mailto:info@firstway.ae"><span class="__cf_email__" data-cfemail="22414d4c5643415662474f434b4e0c414d4f">info@firstway.ae</span></a></li>
                         </ul>
                     </div>
                     <div class="top-right">
-                        <ul class="top-social">
+                         <ul class="top-social">
                             <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
@@ -152,7 +103,7 @@ document.addEventListener("keydown", e => {
             <div class="container">
                 <div class="primary-header-inner">
                     <div class="header-menu-wrap">
-                        <ul class="dl-menu">
+                       <ul class="dl-menu">
                             <li><a href='index.html'>Home</a>
                                
                             </li>
@@ -219,207 +170,202 @@ document.addEventListener("keydown", e => {
         <div class="overlay"></div>
         <div class="container">
             <div class="page-content text-center">
-                <h2>Our Services</h2>
-                <p>we provide comprehensive maintenance, repair, overhaul, fabrication, and rental services for marine, offshore, and industrial operations.</p>
+                <h2>Engine Division</h2>
+                <p>Diesel engine maintenance and repair services</p>
             </div>
         </div>
     </section><!-- /.page-header -->
 
-    <section class="feature-section-2 padding">
+    <div class="single-portfolio padding">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6 padding-15">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="dl dl-factory-4"></i>
+            <div class="portfolio-wrap row">
+                <div class="col-lg-9 sm-padding">
+                    <div class="slider portfolio-carousel nav-style carousel-dots">
+                        <div class="portfolio-box">
+                            <div class="portfolio-thumb">
+                                <img src="assets/img/Engine-Division.png" alt="">
+                            </div>
                         </div>
-                        <div class="feature-info">
-                            <h3>Engine Division</h3>
-                            <p>We specialize in complete diesel engine maintenance and repair services, ensuring optimal performance and reliability.</p>
+                        <div class="portfolio-box">
+                            <div class="portfolio-thumb">
+                                <img src="assets/img/Engine-Division.png" alt="">
+                            </div>
+                        </div>
+                        <div class="portfolio-box">
+                            <div class="portfolio-thumb">
+                                <img src="assets/img/Engine-Division.png" alt="">
+                            </div>
+                        </div>
+                        <div class="portfolio-box">
+                            <div class="portfolio-thumb">
+                                <img src="assets/img/Engine-Division.png" alt="">
+                            </div>
+                        </div>
+                        <div class="portfolio-box">
+                            <div class="portfolio-thumb">
+                                <img src="assets/img/Engine-Division.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Engine Division</h3>
+                        <p>The Engine Division of First Way Marine Machines & Equipment Maintenance provides comprehensive maintenance, repair, and overhaul services for diesel engines used in marine, offshore, and industrial applications.</p>
+                        <p>Our experienced engineers and technicians are equipped to handle routine servicing as well as complex engine overhauls, ensuring reliability, efficiency, and extended equipment life. We focus on minimizing downtime while maintaining the highest standards of quality and safety.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="portfolio-list">
+                                <li>
+                                    <i class="fas fa-thumbs-up"></i>
+                                    <p>Diesel engine overhaul and complete servicing</p>
+                                </li>
+                                <li>
+                                    <i class="fas fa-thumbs-up"></i>
+                                    <p>Engine troubleshooting and fault diagnosis</p>
+                                </li>
+                                <li>
+                                    <i class="fas fa-thumbs-up"></i>
+                                    <p>Reconditioning of cylinder heads</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="portfolio-list">
+                                <li>
+                                    <i class="fas fa-thumbs-up"></i>
+                                    <p>Machining of crankshafts and cylinder blocks</p>
+                                </li>
+                                <li>
+                                    <i class="fas fa-thumbs-up"></i>
+                                    <p>Fuel injection system calibration and servicing</p>
+                                </li>
+                                <li>
+                                    <i class="fas fa-thumbs-up"></i>
+                                    <p>OBM (Diesel) supply, repair, and overhaul</p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 padding-15">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="dl dl-industrial-robot-13"></i>
-                        </div>
-                        <div class="feature-info">
-                            <h3>Motor & Generator Division</h3>
-                            <p>Our motor and generator services support continuous and safe power generation for marine and industrial applications.</p>
-                        </div>
+                <div class="col-lg-3 sm-padding">
+                    <div class="portfolio-details">
+                        <h3>Why Choose Our Division</h3>
+                        <ul class="ps-list">
+                            <li><span>Diesel engine specialists</span></li>
+                            <li><span>Offshore service support</span></li>
+                            <li><span>Quality parts and proven repair</span></li>
+                            <li><span>Diesel engine specialists</span></li>
+                            <li><span>24/7 technical support</span></li>
+                        </ul>
+                        <a href="pdf/FirstWayMarineCompanyProfile.pdf" class="default-btn">View Profile <span></span></a>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 padding-15">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="dl dl-industrial-robot-6"></i>
-                        </div>
-                        <div class="feature-info">
-                            <h3>Marine Carpentry & Decoration Division</h3>
-                            <p>We provide high-quality marine carpentry and interior finishing services tailored to vessel requirements.</p>
-                        </div>
+                    <div class="portfolio-details">
+                        <ul class="dl-list">
+                            <h3>Brochurs</h3>
+                            <li><a href="pdf/FirstWayMarineCompanyProfile.pdf">Download.pdf<i class="fas fa-download"></i></a></li>
+                            <li><a href="pdf/FirstWayMarineCompanyProfile.pdf">Download.doc<i class="fas fa-download"></i></a></li>
+                            <li><a href="pdf/HSE-Policy.pdf">HSE Policy<i class="fas fa-download"></i></a></li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 padding-15">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="dl dl-conveyor-6"></i>
-                        </div>
-                        <div class="feature-info">
-                            <h3>Fabrication & Machining Division</h3>
-                            <p>Our fabrication and machining capabilities support custom manufacturing and repair requirements.</p>
-                        </div>
+                    <div class="portfolio-details">
+                        <h3>Headquaters</h3>
+                        <ul class="contact-list">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>M-40, Mussafah, Abu Dhabi.</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span><a href="mailto:info@firstway.ae" class="__cf_email__" data-cfemail="3c54595050537c5845525d51555f505d45594e4f12525948">info@firstway.ae</a></span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <span>(+971) 2 555 4543</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-fax"></i>
+                                <span>(+971) 2 555 4543</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <span>Mon - Sat: 9:00 - 18:00</span>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 padding-15">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="dl dl-factory-1"></i>
-                        </div>
-                        <div class="feature-info">
-                            <h3>Equipment Division</h3>
-                            <p>We service a wide range of marine and industrial equipment with precision and safety compliance.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 padding-15">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="dl dl-industrial-robot-8"></i>
-                        </div>
-                        <div class="feature-info">
-                            <h3>Electrical & Control Division</h3>
-                            <p>We deliver reliable electrical and automation solutions for marine and industrial systems.</p>
-                        </div>
+                    <div class="widget-box">
+                        <ul class="widget-social">
+                            <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </section><!-- ./ feature-section-2 -->
-
-    <section class="counter-section-3 padding">
-        <div class="top-shape">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 20" preserveAspectRatio="none">
-                <path class="elementor-shape-fill" d="M0,0v3c0,0,393.8,0,483.4,0c9.2,0,16.6,7.4,16.6,16.6c0-9.1,7.4-16.6,16.6-16.6C606.2,3,1000,3,1000,3V0H0z"></path>
-            </svg>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-sm-6 sm-padding">
-                    <div class="counter-item">
-                        <div class="counter-content ">
-                            <i class="dl dl-stock"></i>
-                            <h3><span class="odometer" data-count="3,245">00</span></h3>
-                            <h4>Projects Complete</h4>
-                        </div>
+            <div class="portfolio-related-posts">
+                <h4>Related Our Services</h4>
+            </div>
+            <div class="slider project-carousel nav-style carousel-dots">
+                <div class="project-box">
+                    <div class="project-thumb">
+                        <img src="assets/img/Engine-Division.png" alt="img">
+                        <a href="assets/img/Engine-Division.png" class="venobox project-lightbox"><i class="fas fa-expand"></i></a>
                     </div>
+                    <div class="project-content">
+                        <span></span>
+                        <h3><a href="#">Engine Division </a></h3>
+                    </div>
+                    <div class="overlay"></div>
                 </div>
-                <div class="col-lg-3 col-sm-6 sm-padding">
-                    <div class="counter-item">
-                        <div class="counter-content">
-                            <i class="dl dl-welder-1"></i>
-                            <h3><span class="odometer" data-count="2,518">00</span></h3>
-                            <h4>Happy Customer</h4>
-                        </div>
+                <div class="project-box">
+                    <div class="project-thumb">
+                        <img src="assets/img/Motor-Generator-Division.png" alt="img">
+                        <a href="assets/img/Motor-Generator-Division.png" class="venobox project-lightbox"><i class="fas fa-expand"></i></a>
                     </div>
+                    <div class="project-content">
+                        <span></span>
+                        <h3><a href="#">Motor & Generator Division</a></h3>
+                    </div>
+                    <div class="overlay"></div>
                 </div>
-                <div class="col-lg-3 col-sm-6 sm-padding">
-                    <div class="counter-item">
-                        <div class="counter-content">
-                            <i class="dl dl-meter-2"></i>
-                            <h3><span class="odometer" data-count="6274">00</span></h3>
-                            <h4>Hours Worked</h4>
-                        </div>
+                <div class="project-box">
+                    <div class="project-thumb">
+                        <img src="assets/img/Fabrication-Machining-Division.png" alt="img">
+                        <a href="assets/img/Fabrication-Machining-Division.png" class="venobox project-lightbox"><i class="fas fa-expand"></i></a>
                     </div>
+                    <div class="project-content">
+                        <span></span>
+                        <h3><a href="#">Fabrication Division</a></h3>
+                    </div>
+                    <div class="overlay"></div>
                 </div>
-                <div class="col-lg-3 col-sm-6 sm-padding">
-                    <div class="counter-item">
-                        <div class="counter-content">
-                            <i class="dl dl-refinery"></i>
-                            <h3><span class="odometer" data-count="3245">00</span></h3>
-                            <h4>Worldwide Brunch</h4>
-                        </div>
+                <div class="project-box">
+                    <div class="project-thumb">
+                        <img src="assets/img/EquipmentDivision.png" alt="img">
+                        <a href="assets/img/EquipmentDivision.png" class="venobox project-lightbox"><i class="fas fa-expand"></i></a>
                     </div>
+                    <div class="project-content">
+                        <span></span>
+                        <h3><a href="#">Equipment Division</a></h3>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <div class="project-box">
+                    <div class="project-thumb">
+                        <img src="assets/img/EquipmentDivision.png" alt="img">
+                        <a href="assets/img/EquipmentDivision.png" class="venobox project-lightbox"><i class="fas fa-expand"></i></a>
+                    </div>
+                    <div class="project-content">
+                        <span></span>
+                        <h3><a href="#">Marine Decoration Division</a></h3>
+                    </div>
+                    <div class="overlay"></div>
                 </div>
             </div>
         </div>
-    </section><!-- ./ counter-section-3 -->
+    </div><!-- ./ single-portfolio -->
 
-    <div class="working-process bg-grey bd-bottom padding">
-        <div class="container">
-            <div class="working-wrap row">
-                <div class="col-lg-4 col-md-6 col-sm-6 sm-padding">
-                    <div class="working-process-box">
-                        <div class="arrow arrow-up"></div>
-                        <div class="icon-box">
-                            <i class="dl dl-industrial-robot-18"></i>
-                            <span>1</span>
-                        </div>
-                        <div class="content-box">
-                            <h3 class="heading">Experienced Team</h3>
-                            <p class="desc"></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 sm-padding">
-                    <div class="working-process-box">
-                        <div class="arrow arrow-down"></div>
-                        <div class="icon-box">
-                            <i class="dl dl-industrial-robot-18"></i>
-                            <span>2</span>
-                        </div>
-                        <div class="content-box">
-                            <h3 class="heading">Service Solutions</h3>
-                            <p class="desc"></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 sm-padding">
-                    <div class="working-process-box">
-                        <div class="icon-box">
-                            <i class="dl dl-industrial-robot-18"></i>
-                            <span>3</span>
-                        </div>
-                        <div class="content-box">
-                            <h3 class="heading">Quick Response</h3>
-                            <p class="desc"></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- ./ working-process -->
+   
 
-    <div class="sponsor-section">
-        <div class="container">
-             <div class="slider sponsor-carousel nav-style">
-                <div class="sponsor-item">
-                    <img src="assets/img/Picture16.jpg" alt="sponsor">
-                </div>
-                <div class="sponsor-item">
-                    <img src="assets/img/Picture14.png" alt="sponsor">
-                </div>
-                <div class="sponsor-item">
-                    <img src="assets/img/Picture13.png" alt="sponsor">
-                </div>
-                <div class="sponsor-item">
-                    <img src="assets/img/Picture15.png" alt="sponsor">
-                </div>
-                <div class="sponsor-item">
-                    <img src="assets/img/Picture12.png" alt="sponsor">
-                </div>
-                <div class="sponsor-item">
-                    <img src="assets/img/Picture17.png" alt="sponsor">
-                </div>
-                <div class="sponsor-item">
-                    <img src="assets/img/Picture18.png" alt="sponsor">
-                </div>
-            </div>
-        </div>
-    </div><!-- ./ sponsor-section -->
-
-    
     <section class="widget-section padding">
         <div class="widget-bg"></div>
         <div class="container">
@@ -432,7 +378,7 @@ document.addEventListener("keydown", e => {
                             <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
                             <li class="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li class="pinterest"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                            <li class="whatsapp"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                         </ul>
                     </div>
                 </div>
